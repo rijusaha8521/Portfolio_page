@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #9471bc;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    background: black;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: yellow;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text span {
+    color: yellow;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-top: 2px solid white;
+}
+
+.about-content {
+    width: 60%;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* SKILLS SECTION */
+.skills-section {
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill {
+    background: yellow;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* PROJECTS */
+.projects-section {
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+.project-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project {
+    background: #26004d;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: yellow;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #26004d;
+    margin-top: 40px;
+    border-top: 2px solid white;
+}
